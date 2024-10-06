@@ -22,7 +22,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
 
   if (!name) return m.reply('💛 El nombre no puede estar vacío.')
 
-  if (!age) return m.reply('💛 La edad no puede estar vacía.')
+  if (!age) return m.reply('🤍 La edad no puede estar vacía.')
 
   if (name.length >= 100) return m.reply('💛 El nombre es demasiado largo.' )
 
@@ -48,25 +48,25 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
 
       txt += ` *∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷*\n`
 
-      txt += `┊ *💛 NOMBRE*\n`
+      txt += `┊ *☁️ NOMBRE*\n`
 
       txt += `┊ ⁘ \`${name}\`\n`
 
       txt += `┊\n`
 
-      txt += `┊ *💛 EDAD* \n`
+      txt += `┊ *☁️ EDAD* \n`
 
       txt += `┊ ⁘ \`${age} años\`\n`
 
       txt += `┊\n`
 
-      txt += `┊ *💛 FECHA*\n`
+      txt += `┊ *☁️ FECHA*\n`
 
       txt += `┊ ⁘ \`Hoy\`\n`
 
       txt += `┊\n`
 
-      txt += `┊ *💛 IDENTIFICADOR SERIAL*\n`
+      txt += `┊ *☁️ IDENTIFICADOR SERIAL*\n`
 
       txt += `┊ ⁘ \`${sn}\`\n`
 
