@@ -22,7 +22,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
 
   if (!name) return m.reply('💛 El nombre no puede estar vacío.')
 
-  if (!age) return m.reply('🤍 La edad no puede estar vacía.')
+  if (!age) return m.reply('💛 La edad no puede estar vacía.')
 
   if (name.length >= 100) return m.reply('💛 El nombre es demasiado largo.' )
 
@@ -42,31 +42,31 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
 
   let sn = createHash('md5').update(m.sender).digest('hex').slice(0, 6)        
 
-  let img = await (await fetch(`https://i.ibb.co/HDsMx7B/file.jpg`)).buffer()
+  let img = await (await fetch(`https://i.ibb.co/52585WX/Sylph.jpg`)).buffer()
 
   let txt = '*`📄 VERIFICACIÓN ACTUAL 📄`*\n'
 
       txt += ` *∷∷∷∷∷∷∷∷∷∷∷∷∷∷∷*\n`
 
-      txt += `┊ *☁️ NOMBRE*\n`
+      txt += `┊ *💛 NOMBRE*\n`
 
       txt += `┊ ⁘ \`${name}\`\n`
 
       txt += `┊\n`
 
-      txt += `┊ *☁️ EDAD* \n`
+      txt += `┊ *💛 EDAD* \n`
 
       txt += `┊ ⁘ \`${age} años\`\n`
 
       txt += `┊\n`
 
-      txt += `┊ *☁️ FECHA*\n`
+      txt += `┊ *💛 FECHA*\n`
 
       txt += `┊ ⁘ \`Hoy\`\n`
 
       txt += `┊\n`
 
-      txt += `┊ *☁️ IDENTIFICADOR SERIAL*\n`
+      txt += `┊ *💛 IDENTIFICADOR SERIAL*\n`
 
       txt += `┊ ⁘ \`${sn}\`\n`
 
